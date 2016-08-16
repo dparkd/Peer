@@ -1,0 +1,114 @@
+.about-header {
+	background: url('../images/about-bg.jpg') no-repeat center center; 
+	background-size: cover;
+	height: 700px;
+	text-align: left;
+
+	.layer {
+		position: absolute;
+		width: 100%; 
+		height: 100%; 
+		background: rgba(70, 55, 125, 1); /* Old browsers */
+		background: -moz-linear-gradient(-45deg,  rgba(70, 55, 125, 0.9) 0%, rgba(108, 73, 141, 0.9) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg,  rgba(70, 55, 125, 0.9) 0%,rgba(108, 73, 141, 0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg,  rgba(70, 55, 125, 0.9) 0%,rgba(108, 73, 141, 0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(70, 55, 125, 0.8)', endColorstr='rgba(108, 73, 141, 0.8)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+	.container {
+		padding-top: 400px;
+
+		h1 {
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.about-process {
+
+	.no-top {
+		padding-top: 0; 
+	}
+	.no-bottom {
+		padding-bottom: 0;
+	}
+	.container {
+		text-align: left; 
+
+		h1 {
+			font-family: "SFBold", sans-serif; 
+		}
+
+		.content {
+			font-family: "SFRegular", sans-serif;
+			font-size: 1.8em;
+			color: #757575;
+			width: 85%; 
+			line-height:1.7em;
+
+			a {
+				color: #3364C0; 
+				text-decoration: none;
+			}
+		}
+
+		.caption {
+			font-family: "SFRegular", sans-serif; 
+			color: #333; 
+			opacity: 0.7; 
+			font-size: 1.3em;
+			padding-top: 7px;
+		}
+		
+		.team-profile {
+			padding-top: 40px;
+			img {
+				width: 50%; 
+			}
+
+			h2 {
+				font-family: "SFBold", sans-serif;
+				letter-spacing: 0.1px;
+				font-size: 1.7em;
+				margin-top: 15px;
+				margin-bottom: 0;
+				color: #4D4D4D;
+			}
+
+			p {
+				font-family: "SFLight", sans-serif;
+				font-size: 1.4em;
+				color: #4D4D4D;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -31,7 +31,7 @@
 			padding-top: 50px;
 			margin-bottom: 15px;
 			color: white; 
-			letter-spacing: 0.4px; 
+			letter-spacing: 0.3px; 
 			font-weight: 400; 
 			font-size: 3.4em;
 			opacity: 0.9;
@@ -39,9 +39,9 @@
 
 		h2 {
 			color: white; 
-			letter-spacing: 0.4px; 
+			letter-spacing: 0.3px; 
 			font-weight: 300; 
-			font-size: 3em;
+			font-size: 2.8em;
 			opacity: 0.5;	
 		}
 		
@@ -57,13 +57,15 @@
 			}
 		}
 	}
-
 }
+
+
 
 nav {
 	position: absolute;
 	top: 50px; 
 	right: 75px; 
+	z-index: 999;
 	a {
 		color: white;
 		text-decoration: none; 
@@ -71,6 +73,7 @@ nav {
 		letter-spacing: 1.5px;
 		font-size: 1.5em;
 		transition: 0.1s all ease-in-out;
+		padding-right: 20px;
 
 		&:hover {
 			color: white; 
