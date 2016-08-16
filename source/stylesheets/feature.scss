@@ -1,0 +1,42 @@
+.line-top {
+  border-top: 1px solid #f1f1f1;
+}
+
+.feature-container {
+  padding-top: 50px;
+
+	h1 {
+    padding-top: 50px;
+    margin-bottom: 15px; 
+    letter-spacing: 0.4px; 
+    font-weight: 400; 
+    font-size: 3.4em;
+    opacity: 0.9;
+    color: #503B81;
+  }
+
+  .feature-list {
+    padding-top: 50px; 
+
+    img {
+      width: 50%; 
+    }
+
+    h2 {
+      padding-top: 30px;
+      margin-bottom: 10px;
+      letter-spacing: 0.2px; 
+      font-weight: 400; 
+      font-size: 2em;
+      color: #333;
+    }
+
+    p {
+      letter-spacing: 0.2px; 
+      font-weight: 400; 
+      font-size: 1.6em;
+      color: #333;
+      opacity: 0.8;
+    }
+  }
+}
