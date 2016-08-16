@@ -3,15 +3,14 @@
 }
 
 .feature-container {
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
 	h1 {
-    padding-top: 50px;
+    font-family: "SFBold", sans-serif;
     margin-bottom: 15px; 
-    letter-spacing: 0.4px; 
     font-weight: 400; 
-    font-size: 3.4em;
-    opacity: 0.9;
+    font-size: 3em;
     color: #503B81;
   }
 
@@ -23,20 +22,96 @@
     }
 
     h2 {
-      padding-top: 30px;
-      margin-bottom: 10px;
-      letter-spacing: 0.2px; 
+      font-family: "SFRegular", sans-serif;
+      margin-bottom: 15px; 
       font-weight: 400; 
-      font-size: 2em;
-      color: #333;
+      font-size: 1.9em;
+      color: #5E5E5E;
     }
 
     p {
-      letter-spacing: 0.2px; 
+      font-family: "SFLight", sans-serif;
+      letter-spacing: 0.1px; 
       font-weight: 400; 
       font-size: 1.6em;
-      color: #333;
-      opacity: 0.8;
+      color: #918B9E;
     }
   }
 }
+
+.technology {
+  .image {
+    text-align: center;
+  }
+  img {
+    width: 100%; 
+  }
+  .feature-list {
+    text-align: left; 
+    padding-top: 75px;
+
+    h2 {
+      font-family: "SFBold", sans-serif;
+      text-transform: uppercase;
+      color: #5E5E5E; 
+      font-size: 1.5em;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.platform {
+  width: 100%; 
+  background: #4C4081;
+
+  h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "SFLight", sans-serif;
+    letter-spacing: 0.1px; 
+    font-weight: 400; 
+    font-size: 1.6em;
+    color: white; 
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.8;
+  }
+
+  .platform-icons {
+    padding-top: 85px; 
+
+    .two {
+      img {
+        width: 80%; 
+        opacity: 0.9;
+      }
+      p {
+        padding-top: 15px;
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

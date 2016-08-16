@@ -2,7 +2,12 @@
 title: Peer
 ---
 
+
+
 <div class="header">
+  <nav>
+    <a href="/about">ABOUT</a>
+  </nav>
   <%= image_tag "circle.png", :class => 'circle' %>
   <div class="container">
     <div class="row">
@@ -44,12 +49,79 @@ title: Peer
   </div>
 </div>
 
-<div class="container feature-container line-top">
+<hr>
+
+<div class="container feature-container technology">
   <div class="row">
     <div class="twelve">
       <h1>The technology behind Peer</h1>
     </div>
   </div>
+
+  <div class="row feature-list">
+    <div class="seven columns image">
+      <%= image_tag "sensor.jpg"%>
+    </div>
+    <div class="five columns">
+      <h2>Internet Enabled Sensors</h2>
+      <p>Depending on the subject lesson, an internet enabled sensor will collect different data types. After collecting data like rotational speed, acceleration, or sound the sensor sends the real data to the cloud to be used in the Mixed Reality experience.</p>
+    </div>
+  </div>
+
+  <div class="row feature-list">
+    <div class="five columns text-right">
+      <h2>Mixed Reality Experience</h2>
+      <p>After collecting real World data from the sensor, the headset allows the student to view their progress and results in a mixed reality simulation. Using mixed reality opens up the the possibility of meshing the digital and the physical in one experience.</p>
+    </div>
+    <div class="seven columns image">
+      <%= image_tag "headset.jpg"%>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="platform">
+  <div class="container feature-container">
+    <div class="row">
+      <div class="twelve">
+        <h1>The potential of Peer</h1>
+        <p>Peer as a platform is flexible and adaptable to the classroom’s needs. The instructor has full control over the type of lesson that they want to teach using the Peer platform.  Below are some of the lesson plans that are in development</p>
+      </div>
+    </div>
+
+    <div class="row platform-icons">
+      <div class="columns two">
+        <%= image_tag "platform/aerodynamics.png"%>
+        <p>Aerodynamics</p>
+      </div>
+
+      <div class="columns two">
+        <%= image_tag "platform/acceleration.png"%>
+        <p>Acceleration</p>
+      </div>
+
+      <div class="columns two">
+        <%= image_tag "platform/bonds.png"%>
+        <p>Bonds</p>
+      </div>
+
+      <div class="columns two">
+        <%= image_tag "platform/force.png"%>
+        <p>Force</p>
+      </div>
+
+      <div class="columns two">
+        <%= image_tag "platform/sound.png"%>
+        <p>Waves</p>
+      </div>
+
+      <div class="columns two">
+        <%= image_tag "platform/gravity.png"%>
+        <p>Gravity</p>
+      </div>
+    </div>
+  </div>  
 </div>
 
 

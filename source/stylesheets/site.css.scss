@@ -3,9 +3,39 @@
 @import "header";
 @import "feature";
 
-body {
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+
+@font-face {
+  font-family: SFBold;
+  src: url('../fonts/SF-UI-Text-Bold.otf');
+}
+@font-face {
+  font-family: SFLight;
+  src: url('../fonts/SF-UI-Text-Light.otf');
+}
+@font-face {
+  font-family: SFRegular;
+  src: url('../fonts/SF-UI-Text-Regular.otf');
+}
+@font-face {
+  font-family: SFThin;
+  src: url('../fonts/SF-UI-Text-Ultrathin.otf');
 }
 
+
+body {
+  text-align: center;
+  font-family: "SFRegular", sans-serif;
+  font-size: 1em;
+  text-rendering: geometricPrecision;
+
+
+  padding-bottom: 500px;
+}
+
+hr {
+	margin: 0;
+}
+
+.text-right {
+	text-align: right;
+}

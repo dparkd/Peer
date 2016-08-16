@@ -1,6 +1,6 @@
 .header {
 	width: 100%; 
-	height: 900px;
+	height: 800px;
 	display: inline-block;
 	position: relative;
 
@@ -14,14 +14,14 @@
 			height: 1200px;
 			width: auto; 
 			position: absolute;
-			top: -50%; 
+			top: -65%; 
 			left: 50%; 
 			transform: translate(-50%, 25%);
 		}
 	
 
 	.container {
-		padding-top: 200px;
+		padding-top: 175px;
 
 		img {
 			width: 150px; 
@@ -59,3 +59,48 @@
 	}
 
 }
+
+nav {
+	position: absolute;
+	top: 50px; 
+	right: 75px; 
+	a {
+		color: white;
+		text-decoration: none; 
+		font-family: "SFRegular", sans-serif; 
+		letter-spacing: 1.5px;
+		font-size: 1.5em;
+		transition: 0.1s all ease-in-out;
+
+		&:hover {
+			color: white; 
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
