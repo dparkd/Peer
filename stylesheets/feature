@@ -65,5 +65,11 @@
     .platform .platform-icons .two img {
       width: 80%;
       opacity: 0.9; }
+      @media screen and (max-width: 480px) {
+        .platform .platform-icons .two img {
+          width: 30%; } }
     .platform .platform-icons .two p {
       padding-top: 15px; }
+      @media screen and (max-width: 480px) {
+        .platform .platform-icons .two p {
+          padding-bottom: 30px; } }

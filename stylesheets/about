@@ -22,6 +22,9 @@
     .about-header .container h1 {
       margin-bottom: 5px; }
 
+@media screen and (max-width: 480px) {
+  .about-process img {
+    width: 100%; } }
 .about-process .no-top {
   padding-top: 0; }
 .about-process .no-bottom {
