@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  height: 800px;
+  display: inline-block;
+  position: relative;
+  background: #46377d;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #46377d 0%, #6c498d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #46377d 0%, #6c498d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #46377d 0%, #6c498d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46377d', endColorstr='#6c498d',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .header .circle {
+    height: 1200px;
+    width: auto;
+    position: absolute;
+    top: -65%;
+    left: 50%;
+    transform: translate(-50%, 25%); }
+  .header .container {
+    padding-top: 175px; }
+    .header .container img {
+      width: 150px; }
+    .header .container h1 {
+      padding-top: 50px;
+      margin-bottom: 15px;
+      color: white;
+      letter-spacing: 0.3px;
+      font-weight: 400;
+      font-size: 3.4em;
+      opacity: 0.9; }
+    .header .container h2 {
+      color: white;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 2.8em;
+      opacity: 0.5; }
+    .header .container .video {
+      background: white;
+      border: none;
+      border-radius: 50px;
+      margin-top: 50px;
+      transition: 0.3s all ease-in-out; }
+      .header .container .video:hover {
+        transform: translateY(-4px); }
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 75px;
+  z-index: 999; }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "SFRegular", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    transition: 0.1s all ease-in-out;
+    padding-right: 20px; }
+    nav a:hover {
+      color: white; }

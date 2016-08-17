@@ -1,0 +1,69 @@
+.about-header {
+  background: url("../images/about-bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  text-align: left; }
+  .about-header .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #46377d;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(70, 55, 125, 0.9) 0%, rgba(108, 73, 141, 0.9) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(70, 55, 125, 0.9) 0%, rgba(108, 73, 141, 0.9) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(70, 55, 125, 0.9) 0%, rgba(108, 73, 141, 0.9) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(70, 55, 125, 0.8)', endColorstr='rgba(108, 73, 141, 0.8)',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+  .about-header .container {
+    padding-top: 400px; }
+    .about-header .container h1 {
+      margin-bottom: 5px; }
+
+.about-process .no-top {
+  padding-top: 0; }
+.about-process .no-bottom {
+  padding-bottom: 0; }
+.about-process .container {
+  text-align: left; }
+  .about-process .container h1 {
+    font-family: "SFBold", sans-serif; }
+  .about-process .container .content {
+    font-family: "SFRegular", sans-serif;
+    font-size: 1.8em;
+    color: #757575;
+    width: 85%;
+    line-height: 1.7em; }
+    .about-process .container .content a {
+      color: #3364C0;
+      text-decoration: none; }
+  .about-process .container .caption {
+    font-family: "SFRegular", sans-serif;
+    color: #333;
+    opacity: 0.7;
+    font-size: 1.3em;
+    padding-top: 7px; }
+  .about-process .container .team-profile {
+    padding-top: 40px; }
+    .about-process .container .team-profile img {
+      width: 50%; }
+    .about-process .container .team-profile a {
+      color: #3364C0;
+      text-decoration: none;
+      opacity: 0.9; }
+    .about-process .container .team-profile .fa {
+      padding-left: 3px;
+      font-size: 13px; }
+    .about-process .container .team-profile h2 {
+      font-family: "SFBold", sans-serif;
+      letter-spacing: 0.1px;
+      font-size: 1.7em;
+      margin-top: 15px;
+      margin-bottom: 0;
+      color: #4D4D4D; }
+    .about-process .container .team-profile p {
+      font-family: "SFLight", sans-serif;
+      font-size: 1.4em;
+      color: #4D4D4D; }
