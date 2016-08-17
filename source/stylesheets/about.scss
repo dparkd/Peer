@@ -1,3 +1,6 @@
+
+$break-small: 480px;
+
 .about-header {
 	background: url('../images/about-bg.jpg') no-repeat center center; 
 	background-size: cover;
@@ -25,6 +28,12 @@
 }
 
 .about-process {
+
+	img {
+		@media screen and (max-width: $break-small) {
+			width: 100%;
+    }
+	}
 
 	.no-top {
 		padding-top: 0; 

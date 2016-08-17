@@ -1,3 +1,6 @@
+
+$break-small: 480px;
+
 .line-top {
   border-top: 1px solid #f1f1f1;
 }
@@ -91,9 +94,15 @@
       img {
         width: 80%; 
         opacity: 0.9;
+        @media screen and (max-width: $break-small) {
+          width: 30%;
+        }
       }
       p {
         padding-top: 15px;
+        @media screen and (max-width: $break-small) {
+          padding-bottom: 30px;
+        }
       }
     }
   }
