@@ -39,6 +39,9 @@ activate :directory_indexes
 set :relative_links, true
 # Build-specific configuration
 configure :build do
+	activate :relative_assets
+	activate :minify_css
+  activate :minify_javascript
   # Minify CSS on build
   # activate :minify_css
 
