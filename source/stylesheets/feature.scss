@@ -85,6 +85,9 @@ $break-small: 480px;
     width: 70%;
     margin: 0 auto;
     opacity: 0.8;
+    @media screen and (max-width: $break-small) {
+      width: 90%;
+    }
   }
 
   .platform-icons {

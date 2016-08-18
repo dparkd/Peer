@@ -6,7 +6,7 @@ $break-small: 480px;
 	height: 800px;
 	display: inline-block;
 	position: relative;
-
+	
 	background: #46377d; /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  #46377d 0%, #6c498d 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg,  #46377d 0%,#6c498d 100%); /* Chrome10-25,Safari5.1-6 */
@@ -14,12 +14,16 @@ $break-small: 480px;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46377d', endColorstr='#6c498d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 	.circle {
-			height: 1200px;
-			width: auto; 
 			position: absolute;
-			top: -65%; 
+			width:90%;
+			top: 50%; 
 			left: 50%; 
-			transform: translate(-50%, 25%);
+			transform: translate(-50%, -50%);
+			z-index: 0; 
+
+			@media screen and (max-width: $break-small) {
+        width: 100%;
+      }
 		}
 	
 
@@ -54,6 +58,10 @@ $break-small: 480px;
 			border-radius: 50px; 
 			margin-top: 50px;
 			transition: 0.3s all ease-in-out;
+			position: relative;
+			@media screen and (max-width: $break-small) {
+        z-index: 99999;
+      }
 
 			&:hover {
 				transform: translateY(-4px);
@@ -106,6 +114,11 @@ nav {
 		&:hover {
 			cursor: pointer;
 		}
+
+		@media screen and (max-width: $break-small) {
+      top: 10px;
+      left: 10px;
+    }
 	}
 	
 	.video-frame {
@@ -114,6 +127,12 @@ nav {
 		top: 50%; 
 		left: 50%; 
 		transform: translate(-50%, -50%);
+		width: 900px; 
+		height: 506px; 
+		@media screen and (max-width: $break-small) {
+      width: 400px; 
+      height: 225;
+    }
 	}
 
 }
