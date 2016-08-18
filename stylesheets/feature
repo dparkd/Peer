@@ -60,6 +60,9 @@
     width: 70%;
     margin: 0 auto;
     opacity: 0.8; }
+    @media screen and (max-width: 480px) {
+      .platform p {
+        width: 90%; } }
   .platform .platform-icons {
     padding-top: 100px; }
     .platform .platform-icons .two img {

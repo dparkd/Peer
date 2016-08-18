@@ -14,12 +14,15 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46377d', endColorstr='#6c498d',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
   .header .circle {
-    height: 1200px;
-    width: auto;
     position: absolute;
-    top: -65%;
+    width: 90%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 25%); }
+    transform: translate(-50%, -50%);
+    z-index: 0; }
+    @media screen and (max-width: 480px) {
+      .header .circle {
+        width: 100%; } }
   .header .container {
     padding-top: 175px; }
     .header .container img {
@@ -43,7 +46,11 @@
       border: none;
       border-radius: 50px;
       margin-top: 50px;
-      transition: 0.3s all ease-in-out; }
+      transition: 0.3s all ease-in-out;
+      position: relative; }
+      @media screen and (max-width: 480px) {
+        .header .container .play-video {
+          z-index: 99999; } }
       .header .container .play-video:hover {
         transform: translateY(-4px); }
 
@@ -83,12 +90,22 @@ nav {
     color: white; }
     .video i:hover {
       cursor: pointer; }
+    @media screen and (max-width: 480px) {
+      .video i {
+        top: 10px;
+        left: 10px; } }
   .video .video-frame {
     position: absolute;
     z-index: 99999999;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 506px; }
+    @media screen and (max-width: 480px) {
+      .video .video-frame {
+        width: 400px;
+        height: 225; } }
 
 .show-video {
   opacity: 1;
